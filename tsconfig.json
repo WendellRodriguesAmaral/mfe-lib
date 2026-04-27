@@ -6,6 +6,11 @@
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
+    "paths": {
+      "mfe-auth": [
+        "./dist/mfe-auth"
+      ]
+    },
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
@@ -29,6 +34,12 @@
     },
     {
       "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/mfe-auth/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/mfe-auth/tsconfig.spec.json"
     }
   ]
 }
